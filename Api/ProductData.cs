@@ -41,7 +41,7 @@ public class ProductData : IProductData
             }
         };
 
-    private int GetRandomInt()
+    private int GetRandomInt() 
     {
         var random = new Random();
         return random.Next(100, 1000);
