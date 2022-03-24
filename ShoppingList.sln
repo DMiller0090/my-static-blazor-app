@@ -3,11 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csproj", "{8E3921C9-9EF4-42B2-9760-77CFC4633390}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{984B838F-00EC-44D7-B67E-8AF7E5996F61}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{04B49CE2-CFC8-42CB-B229-1F54F527E15E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Client(1)", "Client\", "{E9ECF11A-1EB6-4D8C-9A03-68001146BFFC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57595"
+		Debug.AspNetCompiler.PhysicalPath = "Client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57595\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57595"
+		Release.AspNetCompiler.PhysicalPath = "Client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57595\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57595"
+		SlnRelativePath = "Client\"
+	EndProjectSection
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52974"
+		Debug.AspNetCompiler.PhysicalPath = "angular-app\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52974\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52974"
+		Release.AspNetCompiler.PhysicalPath = "angular-app\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52974\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52974"
+		SlnRelativePath = "angular-app\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,18 +57,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8E3921C9-9EF4-42B2-9760-77CFC4633390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8E3921C9-9EF4-42B2-9760-77CFC4633390}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8E3921C9-9EF4-42B2-9760-77CFC4633390}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{8E3921C9-9EF4-42B2-9760-77CFC4633390}.Debug|x64.Build.0 = Debug|Any CPU
-		{8E3921C9-9EF4-42B2-9760-77CFC4633390}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{8E3921C9-9EF4-42B2-9760-77CFC4633390}.Debug|x86.Build.0 = Debug|Any CPU
-		{8E3921C9-9EF4-42B2-9760-77CFC4633390}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8E3921C9-9EF4-42B2-9760-77CFC4633390}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8E3921C9-9EF4-42B2-9760-77CFC4633390}.Release|x64.ActiveCfg = Release|Any CPU
-		{8E3921C9-9EF4-42B2-9760-77CFC4633390}.Release|x64.Build.0 = Release|Any CPU
-		{8E3921C9-9EF4-42B2-9760-77CFC4633390}.Release|x86.ActiveCfg = Release|Any CPU
-		{8E3921C9-9EF4-42B2-9760-77CFC4633390}.Release|x86.Build.0 = Release|Any CPU
 		{984B838F-00EC-44D7-B67E-8AF7E5996F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{984B838F-00EC-44D7-B67E-8AF7E5996F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{984B838F-00EC-44D7-B67E-8AF7E5996F61}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -55,6 +81,17 @@ Global
 		{04B49CE2-CFC8-42CB-B229-1F54F527E15E}.Release|x64.Build.0 = Release|Any CPU
 		{04B49CE2-CFC8-42CB-B229-1F54F527E15E}.Release|x86.ActiveCfg = Release|Any CPU
 		{04B49CE2-CFC8-42CB-B229-1F54F527E15E}.Release|x86.Build.0 = Release|Any CPU
+		{E9ECF11A-1EB6-4D8C-9A03-68001146BFFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9ECF11A-1EB6-4D8C-9A03-68001146BFFC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E9ECF11A-1EB6-4D8C-9A03-68001146BFFC}.Debug|x64.Build.0 = Debug|Any CPU
+		{E9ECF11A-1EB6-4D8C-9A03-68001146BFFC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E9ECF11A-1EB6-4D8C-9A03-68001146BFFC}.Debug|x86.Build.0 = Debug|Any CPU
+		{E9ECF11A-1EB6-4D8C-9A03-68001146BFFC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9ECF11A-1EB6-4D8C-9A03-68001146BFFC}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E9ECF11A-1EB6-4D8C-9A03-68001146BFFC}.Release|x64.ActiveCfg = Debug|Any CPU
+		{E9ECF11A-1EB6-4D8C-9A03-68001146BFFC}.Release|x64.Build.0 = Debug|Any CPU
+		{E9ECF11A-1EB6-4D8C-9A03-68001146BFFC}.Release|x86.ActiveCfg = Debug|Any CPU
+		{E9ECF11A-1EB6-4D8C-9A03-68001146BFFC}.Release|x86.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
